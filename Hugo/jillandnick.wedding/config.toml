@@ -20,8 +20,8 @@ theme = "Agency"
 	contact = "Contact"
 
 [[menu.postpend]]
-  url = "http://gohugo.io"
-  name = "External link"
+  url = "http://jillandnickwedding.app.rsvpify.com/"
+  name = "RSVP"
   weight = 10
 
 [[params.services.list]]
