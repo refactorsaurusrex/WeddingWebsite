@@ -24,6 +24,12 @@
                 </li>
                 {{ end }}
 
+                {{ if .Site.Params.weddingDetails.enable }}
+                <li>
+                    <a class="page-scroll" href="#wedding-details">{{ with .Site.Params.navigation.weddingDetails }}{{ . | markdownify }}{{ end }}</a>
+                </li>
+                {{ end }}
+
                 {{ if .Site.Params.services.enable }}
                 <li>
                     <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>

@@ -34,6 +34,35 @@ theme = "Agency"
 	subtitle = "October 15, 2016"
 	buttonText = "Read More"
 
+[params.weddingDetails]
+  enable = true
+  title = "Wedding Details"
+  subtitle = "The 'Where' and 'When'. We already know 'Who'!"
+
+  [[params.weddingDetails.row]]
+
+    [[params.weddingDetails.row.list]]
+        icon = "fa-heart"
+        title = "The Ceremony"
+        description = "The ceremony will be held at (approximately) 6:00 PM, at the gazebo at [Star Hill Ranch](http://www.starhillranch.com) on Saturday October 15, 2016. The exact time is subject to change as we get closer to the actual date. We're aiming for a sunset ceremony."
+
+    [[params.weddingDetails.row.list]]
+        icon = "fa-glass"
+        title = "The Reception"
+        description = "A cocktail hour and then the reception will be held at the [old school house](http://www.starhillranch.com/images/gallery/015.jpg) at Star Hill Ranch, immediately following the ceremony."
+
+    [[params.weddingDetails.row.list]]
+        icon = "fa-black-tie"
+        title = "The Style"
+        description = "We're going for a semi-formal/rustic-chic motif. So, what should you wear? Just try to dress pretty and you'll probably be fine. Cowboy boots and hats are welcome. (After all, this *is* Texas, y'all!) Guys, ties are *not* required. For the ladies, the bride requests you refrain from wearing a wedding dress; if that's all you have to wear, she prefers you go naked. :)"
+
+  [[params.weddingDetails.row]]
+
+    [[params.weddingDetails.row.list]]
+        icon = "fa-building"
+        title = "The Venue"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
 # Services section
 [params.services]
   enable = true
