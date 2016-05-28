@@ -6,8 +6,8 @@ theme = "Agency"
 
 [params]
   # search engine meta
-	name = "Your name"
-	description = "Your description"
+	name = "Nick Spreitzer"
+	description = "Nick Spreitzer and Jill Ott Wedding Website October 15th 2016"
   email = "us@jillandnick.wedding"
 
 # Navigation
