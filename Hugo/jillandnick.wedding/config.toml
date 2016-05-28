@@ -21,7 +21,7 @@ theme = "Agency"
 
 [[menu.postpend]]
   url = "http://jillandnickwedding.app.rsvpify.com/"
-  name = "RSVP"
+  name = "RSVP!"
   weight = 10
 
 [[params.services.list]]
