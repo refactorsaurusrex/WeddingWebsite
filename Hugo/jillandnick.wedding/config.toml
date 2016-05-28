@@ -13,10 +13,10 @@ theme = "Agency"
 # Navigation
 [params.navigation]
   brand = "Jill & Nick's Wedding"
-	services = "Services"
-	portfolio = "Portfolio"
-	about = "About"
-	team = "Team"
+  weddingDetails = "Wedding Details"
+	services = "Hotel Info"
+	about = "Our Story"
+	team = "About Us"
 	contact = "Contact"
 
 [[menu.postpend]]
