@@ -36,6 +36,12 @@
                 </li>
                 {{ end }}
 
+                {{ if .Site.Params.registry_list.enable }}
+                <li>
+                    <a class="page-scroll" href="#gift-registries">{{ with .Site.Params.navigation.registry_list }}{{ . | markdownify }}{{ end }}</a>
+                </li>
+                {{ end }}
+
                 {{ if .Site.Params.portfolio.enable }}
                 <li>
                     <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . | markdownify }}{{ end }}</a>

@@ -80,6 +80,27 @@ googleAnalytics = "UA-77207901-1"
 	title = "Hotel Block"
 	subtitle = "Lorem ipsum dolor sit amet consectetur."
 
+[params.registry_list]
+  enable = true
+  title = "Where We're Registered"
+  subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+  [[params.registries]]
+    logo = "bed-bath-logo.png"
+    link = "http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=542989226&wcref=yes&wcsid=293540525"
+
+  [[params.registries]]
+    logo = "designmodo.jpg"
+    link = "#"
+
+  [[params.registries]]
+    logo = "themeforest.jpg"
+    link = "#"
+
+  [[params.registries]]
+    logo = "creative-market.jpg"
+    link = "#"
+
 [params.about]
   enable = true
   title = "About"
@@ -152,29 +173,6 @@ googleAnalytics = "UA-77207901-1"
     				["fa-facebook", "#"],
     				["fa-linkedin", "#"]
     			]
-
-    	# Client section
-        [params.clients_list]
-          enable = true
-
-        	# All the clients' logos are stored under 'static/img/logos'.
-        	# Replace them with your clients's logos.
-        	[[params.clients]]
-        		logo = "envato.jpg"
-        		link = "#"
-
-        	[[params.clients]]
-        		logo = "designmodo.jpg"
-        		link = "#"
-
-        	[[params.clients]]
-        		logo = "themeforest.jpg"
-        		link = "#"
-
-        	[[params.clients]]
-        		logo = "creative-market.jpg"
-        		link = "#"
-
 
     	# Contact section
     	[params.contact]
