@@ -14,7 +14,7 @@ theme = "Agency"
 [params.navigation]
   brand = "Jill & Nick's Wedding"
   weddingDetails = "Wedding Details"
-	services = "Hotel Info"
+	hotelBlock = "Hotel Block"
 	about = "Our Story"
 	team = "About Us"
 	# contact = "Contact"
@@ -75,10 +75,9 @@ theme = "Agency"
         title = "Car Rentals"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
-# Services section
-[params.services]
+[params.hotelBlock]
   enable = true
-	title = "Services"
+	title = "Hotel Block"
 	subtitle = "Lorem ipsum dolor sit amet consectetur."
 
 [params.about]

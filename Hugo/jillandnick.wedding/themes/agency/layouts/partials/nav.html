@@ -30,9 +30,9 @@
                 </li>
                 {{ end }}
 
-                {{ if .Site.Params.services.enable }}
+                {{ if .Site.Params.hotelBlock.enable }}
                 <li>
-                    <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll" href="#hotel-block">{{ with .Site.Params.navigation.hotelBlock }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 

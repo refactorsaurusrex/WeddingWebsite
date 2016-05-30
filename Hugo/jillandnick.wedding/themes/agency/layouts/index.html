@@ -11,8 +11,8 @@
             {{ partial "weddingDetails.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.services.enable }}
-            {{ partial "services.html" . }}
+        {{ if .Site.Params.hotelBlock.enable }}
+            {{ partial "hotelBlock.html" . }}
         {{ end }}
 
         {{ if .Site.Params.portfolio.enable }}
