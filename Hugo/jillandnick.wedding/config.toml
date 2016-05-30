@@ -24,11 +24,6 @@ theme = "Agency"
   name = "RSVP!"
   weight = 10
 
-[[params.services.list]]
-  icon = "fa-shopping-cart"
-  title = "E-Commerce"
-  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
 [params.hero]
 	title = "Jill & Nick Are Getting Married!"
 	subtitle = "October 15, 2016"
@@ -86,24 +81,6 @@ theme = "Agency"
 	title = "Services"
 	subtitle = "Lorem ipsum dolor sit amet consectetur."
 
-[[params.services.row]]
-
-    [[params.services.row.list]]
-        icon = "fa-shopping-cart"
-        title = "E-Commerce"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-    [[params.services.row.list]]
-        icon = "fa-laptop"
-        title = "Responsive Design"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-    [[params.services.row.list]]
-        icon = "fa-lock"
-        title = "Web"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-# About section
 [params.about]
   enable = true
   title = "About"
