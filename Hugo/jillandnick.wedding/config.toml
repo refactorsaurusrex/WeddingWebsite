@@ -2,7 +2,7 @@ baseurl = "http://jillandnick.wedding"
 languageCode = "en-us"
 title = "Jill & Nick Are Getting Married!"
 theme = "Agency"
-# googleAnalytics = ""
+googleAnalytics = "UA-77207901-1"
 
 [params]
   # search engine meta
