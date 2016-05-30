@@ -17,7 +17,7 @@ theme = "Agency"
 	services = "Hotel Info"
 	about = "Our Story"
 	team = "About Us"
-	contact = "Contact"
+	# contact = "Contact"
 
 [[menu.postpend]]
   url = "http://jillandnickwedding.app.rsvpify.com/"
