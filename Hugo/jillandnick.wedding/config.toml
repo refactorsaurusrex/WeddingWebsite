@@ -15,9 +15,8 @@ googleAnalytics = "UA-77207901-1"
   brand = "Jill & Nick's Wedding"
   weddingDetails = "Wedding Details"
 	hotelBlock = "Hotel Block"
-	about = "Our Story"
-	team = "About Us"
   registry_list = "Gift Registries"
+	team = "Our Story"
 	# contact = "Contact"
 
 [[menu.postpend]]
@@ -102,99 +101,80 @@ googleAnalytics = "UA-77207901-1"
     logo = "creative-market.jpg"
     link = "#"
 
-[params.about]
+[params.team]
   enable = true
-  title = "About"
-  subtitle = "Lorem ipsum dolor sit amet consectetur."
-  endpoint = "Be part<br>of our<br>story!"
+	title = "The Couple"
+	subtitle = "Lorem ipsum dolor sit amet consectetur."
+	description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
-  	[[params.about.events]]
-  		img = "1.jpg"
-  		date = "2009-2011"
-  		title = "Our Humble Beginnings"
-  		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+	[[params.team.members]]
+		img = "1.jpg"
+		name = "Jill Ott"
+		position = "Future Wife"
+		social = [
+			["fa-facebook", "#"]
+		]
 
-  	[[params.about.events]]
-  		img = "2.jpg"
-  		date = "March 2011"
-  		title = "An Agency is Born"
-  		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+	[[params.team.members]]
+		img = "2.jpg"
+		name = "Nick Spreitzer"
+		position = "Future Husband"
+		social = [
+			["fa-facebook", "#"]
+		]
 
-  	[[params.about.events]]
-  		img = "3.jpg"
-  		date = "December 2012"
-  		title = "Our Humble Beginnings"
-  		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  [params.about]
+    title = "Our Story"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    endpoint = "Be part<br>of our<br>story!"
 
-  	[[params.about.events]]
-  		img = "4.jpg"
-  		date = "July 2014"
-  		title = "Phase Two Expansion"
-  		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+    	[[params.about.events]]
+    		img = "1.jpg"
+    		date = "2009-2011"
+    		title = "Our Humble Beginnings"
+    		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-    	# Team section
-    	[params.team]
-        enable = true
-    		title = "Our amazing team"
-    		subtitle = "Lorem ipsum dolor sit amet consectetur."
-    		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    	[[params.about.events]]
+    		img = "2.jpg"
+    		date = "March 2011"
+    		title = "An Agency is Born"
+    		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-    		# All team member's pictures are stored under 'static/img/team'.
-    		# Replace them with your own too.
-    		[[params.team.members]]
-    			img = "1.jpg"
-    			name = "Kay Garland"
-    			position = "Lead Designer"
-    			social = [
-    				["fa-twitter", "#"],
-    				["fa-facebook", "#"],
-    				["fa-linkedin", "#"]
-    			]
+    	[[params.about.events]]
+    		img = "3.jpg"
+    		date = "December 2012"
+    		title = "Our Humble Beginnings"
+    		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-    		[[params.team.members]]
-    			img = "2.jpg"
-    			name = "Larry Parker"
-    			position = "Lead Marketer"
-    			social = [
-    				["fa-twitter", "#"],
-    				["fa-facebook", "#"],
-    				["fa-linkedin", "#"]
-    			]
+    	[[params.about.events]]
+    		img = "4.jpg"
+    		date = "July 2014"
+    		title = "Phase Two Expansion"
+    		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-    		[[params.team.members]]
-    			img = "3.jpg"
-    			name = "Diana Pertersen"
-    			position = "Lead Developer"
-    			social = [
-    				["fa-twitter", "#"],
-    				["fa-facebook", "#"],
-    				["fa-linkedin", "#"]
-    			]
+# Contact section
+[params.contact]
+  enable = true
+	title = "Contact us"
+	subtitle  = "Lorem ipsum dolor sit amet consectetur."
+	buttonText = "Send message"
 
-    	# Contact section
-    	[params.contact]
-        enable = true
-    		title = "Contact us"
-    		subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    		buttonText = "Send message"
+	# 'warning' defines error messages for invalid inputs
+	[params.contact.form.name]
+		text = "Your Name *"
+		warning = "Please enter your name."
 
-    		# 'warning' defines error messages for invalid inputs
-    		[params.contact.form.name]
-    			text = "Your Name *"
-    			warning = "Please enter your name."
+	[params.contact.form.email]
+		text = "Your Email *"
+		warning = "Please enter your email address."
 
-    		[params.contact.form.email]
-    			text = "Your Email *"
-    			warning = "Please enter your email address."
+	[params.contact.form.phone]
+		text = "Your Phone *"
+		warning = "Please enter your phone number."
 
-    		[params.contact.form.phone]
-    			text = "Your Phone *"
-    			warning = "Please enter your phone number."
-
-    		[params.contact.form.message]
-    			text = "Your Message *"
-    			warning = "Please enter a message."
-
+	[params.contact.form.message]
+		text = "Your Message *"
+		warning = "Please enter a message."
 
 [params.footer]
   enable = true

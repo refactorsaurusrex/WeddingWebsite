@@ -48,12 +48,6 @@
                 </li>
                 {{ end }}
 
-                {{ if .Site.Params.about.enable }}
-                <li>
-                    <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
-
                 {{ if .Site.Params.team.enable }}
                 <li>
                     <a class="page-scroll" href="#team">{{ with .Site.Params.navigation.team }}{{ . | markdownify }}{{ end }}</a>
