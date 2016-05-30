@@ -156,7 +156,7 @@ theme = "Agency"
 
     	# Client section
         [params.clients_list]
-            enable = true
+          enable = true
 
         	# All the clients' logos are stored under 'static/img/logos'.
         	# Replace them with your clients's logos.
@@ -179,7 +179,7 @@ theme = "Agency"
 
     	# Contact section
     	[params.contact]
-            enable = true
+        enable = true
     		title = "Contact us"
     		subtitle  = "Lorem ipsum dolor sit amet consectetur."
     		buttonText = "Send message"
