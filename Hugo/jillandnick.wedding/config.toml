@@ -17,6 +17,7 @@ googleAnalytics = "UA-77207901-1"
 	hotelBlock = "Hotel Block"
 	about = "Our Story"
 	team = "About Us"
+  registry_list = "Gift Registries"
 	# contact = "Contact"
 
 [[menu.postpend]]
