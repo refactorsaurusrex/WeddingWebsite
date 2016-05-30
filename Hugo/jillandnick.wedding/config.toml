@@ -108,9 +108,6 @@ googleAnalytics = "UA-77207901-1"
   subtitle = "Lorem ipsum dolor sit amet consectetur."
   endpoint = "Be part<br>of our<br>story!"
 
-  	# The events will be listed from the top to the bottom.
-  	# All images are stored under 'static/img/about'.
-  	# Replace them with your own.
   	[[params.about.events]]
   		img = "1.jpg"
   		date = "2009-2011"
@@ -135,10 +132,9 @@ googleAnalytics = "UA-77207901-1"
   		title = "Phase Two Expansion"
   		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-
     	# Team section
     	[params.team]
-            enable = true
+        enable = true
     		title = "Our amazing team"
     		subtitle = "Lorem ipsum dolor sit amet consectetur."
     		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
