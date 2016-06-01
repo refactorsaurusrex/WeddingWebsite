@@ -630,6 +630,9 @@ section h3.section-subheading {
 .team-member {
     margin-bottom: 50px;
     text-align: center;
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .team-member img {
