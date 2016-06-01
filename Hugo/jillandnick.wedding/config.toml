@@ -16,7 +16,7 @@ googleAnalytics = "UA-77207901-1"
   weddingDetails = "Wedding Details"
 	hotelBlock = "Hotel Block"
   registry_list = "Gift Registries"
-	team = "Our Story"
+	team = "About Us"
 	# contact = "Contact"
 
 [[menu.postpend]]
@@ -104,23 +104,23 @@ googleAnalytics = "UA-77207901-1"
 [params.team]
   enable = true
 	title = "The Couple"
-	subtitle = "Lorem ipsum dolor sit amet consectetur."
+	subtitle = "Couples that ski together, stay together. Or something like that. :)"
 	description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
 	[[params.team.members]]
-		img = "1.jpg"
+		img = "jill-solo.jpg"
 		name = "Jill Ott"
 		position = "Future Wife"
 		social = [
-			["fa-facebook", "#"]
+			["fa-facebook", "https://www.facebook.com/jillannott"]
 		]
 
 	[[params.team.members]]
-		img = "2.jpg"
+		img = "me-solo.jpg"
 		name = "Nick Spreitzer"
 		position = "Future Husband"
 		social = [
-			["fa-facebook", "#"]
+			["fa-facebook", "https://www.facebook.com/nspreitzer"]
 		]
 
   [params.about]
