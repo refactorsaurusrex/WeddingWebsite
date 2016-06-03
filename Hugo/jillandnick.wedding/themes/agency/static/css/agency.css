@@ -891,3 +891,7 @@ body {
     border-radius: 5px;
     padding: 5px 10px;
 }
+.img-list {
+    display: inline-block;
+    margin: 0 25px;
+}

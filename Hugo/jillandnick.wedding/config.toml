@@ -84,6 +84,7 @@ googleAnalytics = "UA-77207901-1"
   enable = true
   title = "Gift Registries"
   subtitle = "Lorem ipsum dolor sit amet consectetur."
+  description = "We're registered with one traditional retailer, **Bed Bath & Beyond**. Please click the **blue logo** above to purchase a gift from our selection of Bed Bath & Beyond items. Alternatively, if you'd like to contribute to our **honeymoon fund**, please click the **red suitcase icon** above to send us any amount you choose. We're planning on going somewhere in the South Pacific! (Think: Bora Bora) Check back later for more updates on our plans."
 
   [[params.registries]]
     logo = "bed-bath-logo.png"
@@ -91,7 +92,7 @@ googleAnalytics = "UA-77207901-1"
 
   [[params.registries]]
     logo = "honeymoon-fund.png"
-    link = "#"
+    link = "https://www.paypal.me/jillandnickhoneymoon"
 
 [params.team]
   enable = true
