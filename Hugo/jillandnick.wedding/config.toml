@@ -82,7 +82,7 @@ googleAnalytics = "UA-77207901-1"
 
 [params.registry_list]
   enable = true
-  title = "Where We're Registered"
+  title = "Gift Registries"
   subtitle = "Lorem ipsum dolor sit amet consectetur."
 
   [[params.registries]]
@@ -90,15 +90,7 @@ googleAnalytics = "UA-77207901-1"
     link = "http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=542989226&wcref=yes&wcsid=293540525"
 
   [[params.registries]]
-    logo = "designmodo.jpg"
-    link = "#"
-
-  [[params.registries]]
-    logo = "themeforest.jpg"
-    link = "#"
-
-  [[params.registries]]
-    logo = "creative-market.jpg"
+    logo = "honeymoon-fund.png"
     link = "#"
 
 [params.team]
