@@ -320,6 +320,12 @@ header .intro-text .intro-heading {
     }
 }
 
+@media(max-width: 729px){
+    #countdown{
+        display: none;
+    }
+}
+
 section {
     padding: 100px 0;
 }
@@ -894,4 +900,10 @@ body {
 .img-list {
     display: inline-block;
     margin: 0 25px;
+}
+#countdown-clock {
+    display: inline-block;
+    margin-bottom: 100px;
+    width: 690px;
+    top: -25px;
 }
