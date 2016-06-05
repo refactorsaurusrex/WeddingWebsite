@@ -171,8 +171,8 @@ googleAnalytics = "UA-77207901-1"
 
 [params.footer]
   enable = true
-	copyright = "**You an oak man?** Oak's nice."
+	copyright = "**You an oak man?** *Oak's nice.*"
 
 [[params.footer.quicklinks]]
-	text = "Theme forked from 'Hugo Agency'"
+	text = "Theme forked from Hugo Agency"
 	link = "https://github.com/digitalcraftsman/hugo-agency-theme"
