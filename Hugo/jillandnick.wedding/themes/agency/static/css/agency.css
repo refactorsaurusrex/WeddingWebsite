@@ -194,7 +194,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #FD4646; }
+  background-color: brown; }
 
 @media (min-width: 768px) {
   .navbar-default {
