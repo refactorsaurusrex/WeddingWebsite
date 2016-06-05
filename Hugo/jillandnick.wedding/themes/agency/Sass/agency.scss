@@ -6,9 +6,10 @@
 
 $primary-color: brown;
 $hover-color: #FD4646;
-$highlight-color: rgba(127, 91, 181, 0.25);
+$highlight-color: rgba(165, 42, 42, 0.25);
 $text-link-color: red;
 $logo-primary-color: #CE3434;
+$warning-color: #FFA445;
 
 body {
     overflow-x: hidden;
@@ -42,6 +43,16 @@ a.active {
 
 a {
     color: $primary-color;
+}
+
+p a {
+    color: $text-link-color;
+    text-decoration: underline;
+}
+
+p a:hover {
+    text-decoration: none;
+    background-color: $highlight-color;
 }
 
 a:hover,
@@ -905,7 +916,7 @@ body {
 	pointer-events: auto;
 }
 .warning {
-    background-color: $hover-color;
+    background-color: $warning-color;
     color: white;
     border-radius: 5px;
     padding: 5px 10px;

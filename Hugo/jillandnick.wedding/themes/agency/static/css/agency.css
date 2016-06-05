@@ -30,6 +30,14 @@ a.active {
 a {
   color: brown; }
 
+p a {
+  color: red;
+  text-decoration: underline; }
+
+p a:hover {
+  text-decoration: none;
+  background-color: rgba(165, 42, 42, 0.25); }
+
 a:hover,
 a:focus,
 a:active,
@@ -713,11 +721,11 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
   text-shadow: none;
-  background: rgba(127, 91, 181, 0.25); }
+  background: rgba(165, 42, 42, 0.25); }
 
 ::selection {
   text-shadow: none;
-  background: rgba(127, 91, 181, 0.25); }
+  background: rgba(165, 42, 42, 0.25); }
 
 img::selection {
   background: 0 0; }
@@ -746,7 +754,7 @@ body {
   pointer-events: auto; }
 
 .warning {
-  background-color: #FD4646;
+  background-color: #FFA445;
   color: white;
   border-radius: 5px;
   padding: 5px 10px; }
