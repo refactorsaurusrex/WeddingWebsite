@@ -34,7 +34,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: brown; }
+  color: #FD4646; }
 
 h1,
 h2,
@@ -70,7 +70,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
   border-color: brown;
   color: #fff;
-  background-color: brown; }
+  background-color: #FD4646; }
 
 .btn-primary:active,
 .btn-primary.active,
@@ -93,7 +93,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
   border-color: brown;
-  background-color: brown; }
+  background-color: #FD4646; }
 
 .btn-primary .badge {
   color: brown;
@@ -117,7 +117,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
   border-color: brown;
   color: #fff;
-  background-color: brown; }
+  background-color: #FD4646; }
 
 .btn-xl:active,
 .btn-xl.active,
@@ -140,7 +140,7 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
   border-color: brown;
-  background-color: brown; }
+  background-color: #FD4646; }
 
 .btn-xl .badge {
   color: brown;
@@ -152,13 +152,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
   font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-  color: brown; }
+  color: #CE3434; }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-  color: #CF7FFF; }
+  color: #FD4646; }
 
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02); }
@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: brown; }
+  background-color: #FD4646; }
 
 .navbar-default .nav li a {
   text-transform: uppercase;
@@ -184,7 +184,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   outline: 0;
-  color: brown; }
+  color: #FD4646; }
 
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
@@ -194,7 +194,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: brown; }
+  background-color: #FD4646; }
 
 @media (min-width: 768px) {
   .navbar-default {
@@ -638,7 +638,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: brown; }
+  background-color: #FD4646; }
 
 .btn:focus,
 .btn:active,
