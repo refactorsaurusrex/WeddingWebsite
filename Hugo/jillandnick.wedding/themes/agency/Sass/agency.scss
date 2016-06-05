@@ -905,7 +905,7 @@ body {
 	pointer-events: auto;
 }
 .warning {
-    background-color: #FB6C6C;
+    background-color: $hover-color;
     color: white;
     border-radius: 5px;
     padding: 5px 10px;
