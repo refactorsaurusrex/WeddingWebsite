@@ -20,37 +20,37 @@
 
                 {{ range .Site.Menus.prepend }}
                 <li>
-                    <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
+                    <a class="page-top-nav" href="{{ .URL }}">{{ .Name | markdownify }}</a>
                 </li>
                 {{ end }}
 
                 {{ if .Site.Params.weddingDetails.enable }}
                 <li>
-                    <a class="page-scroll" href="#wedding-details">{{ with .Site.Params.navigation.weddingDetails }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll page-top-nav" href="#wedding-details">{{ with .Site.Params.navigation.weddingDetails }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
                 {{ if .Site.Params.hotelBlock.enable }}
                 <li>
-                    <a class="page-scroll" href="#hotel-block">{{ with .Site.Params.navigation.hotelBlock }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll page-top-nav" href="#hotel-block">{{ with .Site.Params.navigation.hotelBlock }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
                 {{ if .Site.Params.registry_list.enable }}
                 <li>
-                    <a class="page-scroll" href="#gift-registries">{{ with .Site.Params.navigation.registry_list }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll page-top-nav" href="#gift-registries">{{ with .Site.Params.navigation.registry_list }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
                 {{ if .Site.Params.portfolio.enable }}
                 <li>
-                    <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll page-top-nav" href="#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
                 {{ if .Site.Params.team.enable }}
                 <li>
-                    <a class="page-scroll" href="#team">{{ with .Site.Params.navigation.team }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll page-top-nav" href="#team">{{ with .Site.Params.navigation.team }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
@@ -62,7 +62,7 @@
 
                 {{ range .Site.Menus.postpend }}
                 <li>
-                    <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
+                    <a class="page-top-nav" href="{{ .URL }}">{{ .Name | markdownify }}</a>
                 </li>
                 {{ end }}
             </ul>

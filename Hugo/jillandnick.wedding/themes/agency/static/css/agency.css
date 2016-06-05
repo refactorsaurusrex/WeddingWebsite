@@ -773,3 +773,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%; }
+
+ul.nav.navbar-nav.navbar-right li a.page-top-nav:hover {
+  background-color: brown;
+  color: white;
+  border-radius: 3px; }
