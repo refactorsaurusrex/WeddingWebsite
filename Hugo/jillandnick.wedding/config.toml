@@ -56,7 +56,7 @@ googleAnalytics = "UA-77207901-1"
     [[params.weddingDetails.row.list]]
         icon = "fa-building"
         title = "The Venue"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        description = "[Star Hill Ranch](http://www.starhillranch.com/) is reminiscent of a quaint little Hill Country town from the early 1900s. All of the 22 historic buildings, originally constructed between 1850 and 1935, have been relocated from around the state and carefully restored. We can't wait to share this unique and memorable place with you!"
 
     [[params.weddingDetails.row.list]]
         icon = "fa-bed"
