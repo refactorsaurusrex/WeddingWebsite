@@ -44,7 +44,7 @@ googleAnalytics = "UA-77207901-1"
     [[params.weddingDetails.row.list]]
         icon = "fa-glass"
         title = "The Reception"
-        description = "A cocktail hour and then the reception will be held at the [old school house](http://www.starhillranch.com/images/gallery/015.jpg) at Star Hill Ranch, immediately following the ceremony."
+        description = "A cocktail hour and then the reception will be held at the [old school house](http://www.starhillranch.com/images/gallery/015.jpg) at Star Hill Ranch, immediately following the ceremony. And after that... we expect to join up at the gorgeous rooftop bar of the Sonesta hotel for continued libations!"
 
     [[params.weddingDetails.row.list]]
         icon = "fa-black-tie"
