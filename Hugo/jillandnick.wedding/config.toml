@@ -73,7 +73,7 @@ googleAnalytics = "UA-77207901-1"
     [[params.weddingDetails.row.list]]
         icon = "fa-car"
         title = "Car Rentals"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        description = "If you need or want to rent a car, we highly recommend using [Silvercar](https://www.silvercar.com). We've had great experiences with them! If you do, you can use our referral code: 'NSPREITZER'. All their cars are silver Audi A4's and their service is awesome. However, they do charge $69/day, so if you'd like a less-expensive option, take a look at the [traditional car rental companies at the airport](http://www.austintexas.gov/department/ground-transportation)."
 
 [params.hotelBlock]
   enable = true
