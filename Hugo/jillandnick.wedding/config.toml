@@ -49,7 +49,7 @@ googleAnalytics = "UA-77207901-1"
     [[params.weddingDetails.row.list]]
         icon = "fa-black-tie"
         title = "The Style"
-        description = "We're going for a semi-formal/rustic-chic motif. So, what should you wear? Just try to dress pretty and you'll probably be fine. Cowboy boots and hats are welcome. (After all, this *is* Texas, y'all!) Guys, ties are *not* required. For the ladies, the bride requests you refrain from wearing a wedding dress; if that's all you have to wear, she prefers you go naked. :)"
+        description = "We're going for a semi-formal/rustic-chic motif. So, what should you wear? Just try to dress pretty and you'll probably be fine. Cowboy boots and hats are welcome. (After all, this *is* Texas, y'all!) Guys, ties are *not* required. For the ladies, the bride requests you just refrain from wearing a wedding dress. ;-)"
 
   [[params.weddingDetails.row]]
 
