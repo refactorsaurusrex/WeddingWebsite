@@ -61,7 +61,7 @@ googleAnalytics = "UA-77207901-1"
     [[params.weddingDetails.row.list]]
         icon = "fa-bed"
         title = "Hotels"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        description = "We have a [hotel room block at Sonesta Bee Cave](#hotel-block), and we strongly encourage everyone to take advantage of the great deal we are getting at this fantastic new hotel. However, if you prefer an alternative, there are two other hotels nearby: [Mountain Star Hotel](http://www.mountainstarlodge.com/) and [Hampton Inn & Suites](http://hamptoninn3.hilton.com/en/hotels/texas/hampton-inn-and-suites-austin-lakeway-AUSLWHX/index.html). Keep in mind, the Sonesta provides a shuttle to Star Hill Ranch; other hotels may not provide this service."
 
     [[params.weddingDetails.row.list]]
         icon = "fa-plane"
