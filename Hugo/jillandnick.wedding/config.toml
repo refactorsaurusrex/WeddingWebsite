@@ -66,7 +66,7 @@ googleAnalytics = "UA-77207901-1"
     [[params.weddingDetails.row.list]]
         icon = "fa-plane"
         title = "Flight Info"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        description = "If you're flying into Austin, we highly recommend [Southwest](https://www.southwest.com/flight/shortcut/low-fare-search.html) or [JetBlue](http://www.jetblue.com/bestfarefinder/#/). For folks in LA: Based on our experience, any one-way fare to Austin less than $150 is a deal you should jump on!"
 
   [[params.weddingDetails.row]]
 
