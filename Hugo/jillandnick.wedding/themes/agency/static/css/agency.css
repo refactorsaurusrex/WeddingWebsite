@@ -425,7 +425,7 @@ section h3.section-subheading {
   border-radius: 100%;
   text-align: center;
   color: #fff;
-  background-color: brown; }
+  background-color: white; }
 
 .timeline > li .timeline-image h4 {
   margin-top: 12px;
@@ -786,3 +786,6 @@ ul.nav.navbar-nav.navbar-right li a.page-top-nav:hover {
   background-color: brown;
   color: white;
   border-radius: 3px; }
+
+.timeline li:last-of-type .timeline-image {
+  background-color: brown; }
