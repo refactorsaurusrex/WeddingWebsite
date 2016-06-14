@@ -147,7 +147,7 @@ googleAnalytics = "UA-77207901-1"
         img = "new-house.jpg"
         date = "October 2015"
         title = "A New Home"
-        description = "After a full year of searching, Jill and Nick purchase a beautiful new home together in Austin, less than one mile from Jill's first home. After moving an average of once a year since he was 18, Nick is relived at the thought of never moving ever again."
+        description = "After a full year of searching, Jill and Nick purchase a beautiful new home together in Austin, less than one mile from Jill's first home. After moving an average of once a year since he was 18, Nick is relieved at the thought of never moving ever again."
 
       [[params.about.events]]
         img = "engaged.jpg"
