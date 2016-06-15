@@ -6,18 +6,18 @@ googleAnalytics = "UA-77207901-1"
 
 [params]
   # search engine meta
-	name = "Nick Spreitzer"
-	description = "Nick Spreitzer and Jill Ott Wedding Website October 15th 2016"
+  name = "Jill & Nick"
+  description = "Nick Spreitzer and Jill Ott Wedding Website October 15th 2016"
   email = "us@jillandnick.wedding"
 
 # Navigation
 [params.navigation]
   brand = "Jill & Nick's Wedding"
   weddingDetails = "Wedding Details"
-	hotelBlock = "Hotel Block"
+  hotelBlock = "Hotel Block"
   registry_list = "Gift Registries"
-	team = "About Us"
-	# contact = "Contact"
+  team = "About Us"
+  # contact = "Contact"
 
 [[menu.postpend]]
   url = "http://jillandnickwedding.app.rsvpify.com/"
