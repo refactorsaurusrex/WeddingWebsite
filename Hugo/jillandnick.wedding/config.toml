@@ -39,7 +39,7 @@ googleAnalytics = "UA-77207901-1"
     [[params.weddingDetails.row.list]]
         icon = "fa-heart"
         title = "Ceremony"
-        description = "The ceremony will be held at (approximately) 6:00 PM, outside (weather permitting) at the [gazebo at Star Hill Ranch](http://www.starhillranch.com/images/gallery/004.jpg) on Saturday October 15, 2016. The exact time is subject to change as we get closer to the actual date. We're aiming for a sunset ceremony."
+        description = "The ceremony will be held at 5:30 PM, outside (weather permitting) at the [gazebo at Star Hill Ranch](http://www.starhillranch.com/images/gallery/004.jpg) on Saturday October 15, 2016. The exact time is subject to change as we get closer to the actual date. We're aiming for a sunset ceremony."
 
     [[params.weddingDetails.row.list]]
         icon = "fa-black-tie"
@@ -93,7 +93,7 @@ googleAnalytics = "UA-77207901-1"
 [params.registry_list]
   enable = true
   title = "Gift Registries"
-  subtitle = "For those who have expressed interesting in buying a gift..."
+  subtitle = "For those who have expressed interest in buying a gift..."
   description = "Although we already have most of the things we need, for those who have expressed an interest in purchasing a wedding gift, we've registered with **Bed Bath & Beyond**. Please [click here](http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=542989226&wcref=yes&wcsid=293540525) to view our list of pre-selected items. We've also set up a [honeymoon fund](https://www.paypal.me/jillandnickhoneymoon), should anyone wish to contribute. Once we settle on honeymoon plans, this site will be updated to allow contributions to specific honeymoon activities we'd like to do!"
 
   [[params.registries]]
