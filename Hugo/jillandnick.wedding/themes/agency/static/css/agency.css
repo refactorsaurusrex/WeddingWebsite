@@ -789,3 +789,13 @@ ul.nav.navbar-nav.navbar-right li a.page-top-nav:hover {
 
 .timeline li:last-of-type .timeline-image {
   background-color: brown; }
+
+.big {
+  vertical-align: middle;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 25px;
+  margin-right: 25px; }
