@@ -94,7 +94,7 @@ googleAnalytics = "UA-77207901-1"
   enable = true
   title = "Gift Registries"
   subtitle = "For those who have expressed interest in buying a gift..."
-  description = "Although we already have most of the things we need, for those who have expressed an interest in purchasing a wedding gift, we've registered with **Bed Bath & Beyond**. Please [click here](http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=542989226&wcref=yes&wcsid=293540525) to view our list of pre-selected items. We've also set up a [honeymoon fund](https://www.paypal.me/jillandnickhoneymoon), should anyone wish to contribute. Once we settle on honeymoon plans, this site will be updated to allow contributions to specific honeymoon activities we'd like to do!"
+  description = "Although we already have most of the things we need, for those who have expressed an interest in purchasing a wedding gift, we've registered with **Bed Bath & Beyond**. Please [click here](http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=542989226&wcref=yes&wcsid=293540525) to view our list of pre-selected items. We've also set up a [honeymoon fund](https://cruiseplanners.honeymoonwishes.com/Honeymoon-Registry-316010-Fiji-Islands-Nick-Spreitzer-Jill-Ott.html), should anyone wish to contribute!"
 
   [[params.registries]]
     logo = "bed-bath-logo.png"
@@ -102,7 +102,7 @@ googleAnalytics = "UA-77207901-1"
 
   [[params.registries]]
     logo = "honeymoon-fund.png"
-    link = "https://www.paypal.me/jillandnickhoneymoon"
+    link = "https://cruiseplanners.honeymoonwishes.com/Honeymoon-Registry-316010-Fiji-Islands-Nick-Spreitzer-Jill-Ott.html"
 
 [params.team]
   enable = true
