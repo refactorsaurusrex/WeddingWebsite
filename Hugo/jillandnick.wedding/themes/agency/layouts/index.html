@@ -11,6 +11,10 @@
             {{ partial "weddingDetails.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.schedule.enable }}
+            {{ partial "schedule.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.hotelBlock.enable }}
             {{ partial "hotelBlock.html" . }}
         {{ end }}

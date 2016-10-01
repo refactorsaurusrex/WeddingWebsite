@@ -964,3 +964,78 @@ ul.nav.navbar-nav.navbar-right li a.page-top-nav:hover {
     margin-left: 25px;
     margin-right: 25px;
 }
+
+table.schedule {
+    border-collapse: collapse;
+    border-style: hidden;
+    font-size: 1.1em;
+    margin-left: 100px;
+}
+
+table.schedule td {
+  height:  30px;
+}
+
+table.schedule td.time {
+  border-right: 3px solid #A52A2A;
+  padding-right: 10px;
+  text-align: right;
+  width: 120px;
+}
+
+table.schedule td.description {
+  border-right: 3px solid #A52A2A;
+  padding-left: 10px;
+  width: 400px;
+}
+.schedule-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: 10px auto;
+}
+.schedule-row h1 {
+  flex: 1 100%;
+  text-align: center;
+}
+table.schedule td.description pre {
+  font-family: "Courier New";
+  font-size: 14px;
+  padding: 5px;
+}
+.schedule-row p, .schedule-row h3 {
+  flex: 1 100%;
+  text-align: center;
+}
+.schedule-row h3 {
+  margin: 0;
+}
+.schedule-row p {
+  margin: 25px 0;
+}
+
+@media (max-width: 550px){
+  #new-jill {
+    display: none;
+  }
+  table.schedule td.description {
+    border-bottom: 1px solid lightgray;
+  }
+}
+
+@media (max-width: 768px){
+  table.schedule {
+      margin-left: 0;
+  }
+}
+@media (max-width: 625px){
+  a.header-button {
+    padding: 10px 20px;
+	}
+}
+@media (max-width: 520px){
+  .header-block {
+    display: block;
+  }
+}

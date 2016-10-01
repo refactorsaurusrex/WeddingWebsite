@@ -30,6 +30,12 @@
                 </li>
                 {{ end }}
 
+                {{ if .Site.Params.schedule.enable }}
+                <li>
+                    <a class="page-scroll page-top-nav" href="#schedule">{{ with .Site.Params.navigation.schedule }}{{ . | markdownify }}{{ end }}</a>
+                </li>
+                {{ end }}
+
                 {{ if .Site.Params.hotelBlock.enable }}
                 <li>
                     <a class="page-scroll page-top-nav" href="#hotel-block">{{ with .Site.Params.navigation.hotelBlock }}{{ . | markdownify }}{{ end }}</a>
