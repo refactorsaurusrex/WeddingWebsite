@@ -32,12 +32,11 @@ $('.map-container')
 			$(this).find('iframe').removeClass('clicked')});
 
 $(document).ready(function(){
-  var weddingDate  = new Date("October 15, 2016 17:30:00");
+  var weddingDate = new Date("October 15, 2016 17:50:00");
   var currentDate = new Date();
-  var diff = weddingDate.getTime() / 1000 - currentDate.getTime() / 1000;
+  var diff = currentDate.getTime() / 1000 - weddingDate.getTime() / 1000;
   var clock = $('#countdown-clock').FlipClock(diff, {
                   'autoStart': true,
-                  'clockFace': 'DailyCounter',
-                  'countdown': true,
+                  'clockFace': 'DailyCounter'
   		});
 });
