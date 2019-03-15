@@ -1,7 +1,7 @@
 baseurl = "https://jillandnick.wedding/"
 languageCode = "en-us"
 title = "Jill & Nick Are Getting Married!"
-theme = "Agency"
+theme = "agency"
 googleAnalytics = "UA-77207901-1"
 
 [params]
